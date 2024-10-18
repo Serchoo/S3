@@ -2,7 +2,7 @@
 
 ## Pseudocodigo
 
-#### Hacemos un bucle, hasta tener a todos los alumnos inscritos{
+### Hacemos un bucle, hasta tener a todos los alumnos inscritos{
 
 #### preguntams si tienen un hermano en el centro  
 - si lo tiene sumamos 40 pts
@@ -25,4 +25,4 @@
   
 - preguntamos si quiere salir del bucle o quiere seguir inscribiendo alumnos
   
-#### }fin del bucle
+### }fin del bucle
