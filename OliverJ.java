@@ -1,55 +1,64 @@
 package S3;
 
+import java.util.Scanner;
+
 public class SergiOliver {
     public static void main(String[] args){
         //Sergi Oliver
 
-        
+        Scanner lectura = new Scanner (System.in);
+
         //PISCINA 1
-        final double LARGO1 = 300.3;
-        final double ANCHO1 = 150.5;
-        double profundidad1 = 20.5;
+        final double LARGO = 300.3;
+        
+        System.out.println("Introduce el ancho de la primera piscina: ");
+        double ancho1 = lectura.nextInt();
+
+        System.out.println("Introduce la profundidad de la primera piscina: ");
+        double profundidad1 = lectura.nextInt();
 
         //PISCINA 2
-        final double LARGO2 = 300.3;
-        final double ANCHO2 = 80.5;
-        double profundidad2 = 35.5;
+        System.out.println("Introduce el ancho de la primera piscina: ");
+        double ancho2 = lectura.nextInt();
+
+        System.out.println("Introduce la profundidad de la primera piscina: ");
+        double profundidad2 = lectura.nextInt();
 
         //Apartado 1
-        double area1 = ANCHO1 * LARGO1;
+        int area1 = (int)(ancho1 * LARGO);
 
         System.out.println("El área de la primera piscina es: " + area1 + "m²"); 
 
-        double area2 = ANCHO2 * LARGO2;
+        int area2 = (int)(ancho2 * LARGO);
 
         System.out.println("El área de la segunda piscina es: " + area2 + "m²\n");
 
         //Apartado 2
 
-        double volumen1 = area1 * profundidad1;
+        int volumen1 = (int)(area1 * profundidad1);
 
         System.out.println("El volumen de la primera piscina es: " + volumen1 + " Litros");
 
-        double volumen2 = area2 * profundidad2;
+        int volumen2 = (int)(area2 * profundidad2);
 
         System.out.println("El volumen de la segunda piscina es: " + volumen2 + " Litros\n");
         
 
         //Apartado 3
-        double largoTotal = LARGO1;
-        double anchoTotal = ANCHO1 + ANCHO2;
+        double largoTotal = LARGO;
+        double anchoTotal = ancho1 + ancho2;
 
         System.out.println("El ancho y el largo de ambas piscinas juntas es: " 
                             + largoTotal + "m de largo y " + anchoTotal + "m de ancho\n");
 
         // Apartado 4
-        double areaTotal = anchoTotal * LARGO1;
+        int areaTotal = (int)(anchoTotal * LARGO);
 
         System.out.println("El área de ambas piscinas es de: " + areaTotal + " Litros\n");
 
         //Apartado 5
 
-        double volumenTotal = areaTotal * profundidad1;
+        int volumenTotal = (int)(areaTotal * profundidad1);
         
         System.out.println("El volumen de ambas piscinas es de: " + volumenTotal + " Litros\n");
 
@@ -64,11 +73,11 @@ public class SergiOliver {
         //System.out.println("TR: La profundidad de la primera piscina es de: "+profundidad1+" m");
         //System.out.println("TR: La profundidad de la segunda piscina es de: "+profundidad2+" m");
 
-        volumen1 = area1 * profundidad1;
+        volumen1 = (int)(area1 * profundidad1);
 
         System.out.println("El nuevo volumen de la primera piscina es: " + volumen1 + " Litros");
 
-        volumen2 = area2 * profundidad2;
+        volumen2 = (int)(area2 * profundidad2);
         
         System.out.println("El nuevo volumen de la segunda piscina es: " + volumen2 + " Litros\n");
     }
