@@ -6,21 +6,21 @@ public class SergiOliver {
 
         
         //PISCINA 1
-        double largo1 = 300.3;
-        double ancho1 = 150.5;
+        final double LARGO1 = 300.3;
+        final double ANCHO1 = 150.5;
         double profundidad1 = 20.5;
 
         //PISCINA 2
-        double largo2 = 300.3;
-        double ancho2 = 80.5;
+        final double LARGO2 = 300.3;
+        final double ANCHO2 = 80.5;
         double profundidad2 = 35.5;
 
         //Apartado 1
-        double area1 = ancho1 * largo1;
+        double area1 = ANCHO1 * LARGO1;
 
         System.out.println("El área de la primera piscina es: " + area1 + "m²"); 
 
-        double area2 = ancho2 * largo2;
+        double area2 = ANCHO2 * LARGO2;
 
         System.out.println("El área de la segunda piscina es: " + area2 + "m²\n");
 
@@ -36,14 +36,14 @@ public class SergiOliver {
         
 
         //Apartado 3
-        double largoTotal = largo1;
-        double anchoTotal = ancho1 + ancho2;
+        double largoTotal = LARGO1;
+        double anchoTotal = ANCHO1 + ANCHO2;
 
         System.out.println("El ancho y el largo de ambas piscinas juntas es: " 
                             + largoTotal + "m de largo y " + anchoTotal + "m de ancho\n");
 
         // Apartado 4
-        double areaTotal = anchoTotal * largo1;
+        double areaTotal = anchoTotal * LARGO1;
 
         System.out.println("El área de ambas piscinas es de: " + areaTotal + " Litros\n");
 
@@ -73,4 +73,3 @@ public class SergiOliver {
         System.out.println("El nuevo volumen de la segunda piscina es: " + volumen2 + " Litros\n");
     }
 }
-
