@@ -54,13 +54,15 @@ public class SergiOliver {
         System.out.println("El volumen de ambas piscinas es de: " + volumenTotal + " Litros\n");
 
         //Apartado 6
+
+        //Apartado C- Debugg (Sergi Oliver 18/10/2024)
         double aux = profundidad1;
         profundidad1 = profundidad2;
         profundidad2 = aux;
 
-        //Apartado B- Traces
-        System.out.println("TR: La profundidad de la primera piscina es de: "+profundidad1+" m");
-        System.out.println("TR: La profundidad de la segunda piscina es de: "+profundidad2+" m");
+        //Apartado B- Traces (Sergi Oliver 18/10/2024)
+        //System.out.println("TR: La profundidad de la primera piscina es de: "+profundidad1+" m");
+        //System.out.println("TR: La profundidad de la segunda piscina es de: "+profundidad2+" m");
 
         volumen1 = area1 * profundidad1;
 
@@ -71,3 +73,4 @@ public class SergiOliver {
         System.out.println("El nuevo volumen de la segunda piscina es: " + volumen2 + " Litros\n");
     }
 }
+
