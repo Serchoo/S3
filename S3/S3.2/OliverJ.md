@@ -4,7 +4,7 @@
 
 ### Hacemos un bucle, hasta tener a todos los alumnos inscritos{
 
-#### preguntams si tienen un hermano en el centro  
+#### preguntamos si tienen un hermano en el centro  
 - si lo tiene sumamos 40 pts
   
 #### preguntamos si vive cerca o si sus padres trabajan cerca
