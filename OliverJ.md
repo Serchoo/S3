@@ -25,4 +25,4 @@ Mostramos los puntos totales que ha conseguido el alumno
   
 preguntamos si quiere salir del bucle o quiere seguir inscribiendo alumnos
   
-fin del bucle}
+}fin del bucle
