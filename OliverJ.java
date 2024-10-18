@@ -2,7 +2,7 @@ package S3;
 
 import java.util.Scanner;
 
-public class SergiOliver {
+public class OliverJ {
     public static void main(String[] args){
         //Sergi Oliver
 
