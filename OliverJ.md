@@ -1,6 +1,6 @@
 ### Sergi Oliver Juárez
 
-##Pseudocodigo
+## Pseudocodigo
 
 - Hacemos un bucle, hasta tener a todos los alumnos inscritos{
 
